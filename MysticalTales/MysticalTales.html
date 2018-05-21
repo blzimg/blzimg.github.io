@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Mystical Tales</title>
 </head>
 
@@ -12,6 +13,28 @@ Series: 8 issues 1956-1957<br>
 Publisher: Atlas<br>
 <p>
 SciFi Horror anthology. This series was one of eight SF anthologies launched or revived in an eight-month period (cover dates October 1955–June 1956), increasing Atlas's SF line from eight to sixteen books. This book ran until the collapse of Atlas's distributor and the subsequent restructuring known as the "Atlas Implosion".
-</p>
+</p><p>
+
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales6.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales7.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MysticalTales8.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
 </body>
 </html>
