@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
+<title>How Linux Works Notes</title>
+</head>
+<body>
+<p>
+My Notes: "How Linux Works: What Every Superuser Should Know"<br>
+</p><p>
+<a href="https://nostarch.com/howlinuxworks2"><img src="hlw2e.jpg"></a>
+</p><p>
+1 The Big Picture
+<li>1.1 Levels and layers of abstractions in a Linux system
+<li>1.2 Hardware: Understanding Main Memory
+<li>1.3 The Kernel: Process, memory, and driver management, System calls and support.
+<li>1.4 User space
+<li>1.5 Users
+<li>1.6 Looking Forward
+
+</p><p>
+2 Basic Commands and Directory Hierarchy
+<li>2.01 The Bourne shell, /bin/sh
+<li>2.02 Using the shell: cat, standard I/O.
+<li>2.03 Basic Commands: ls, cp, mv, touch, rm, echo.
+<li>2.04 Navigating directories: cd, mkdir, rmdir, globbing (wildcards).
+<li>2.05 Intermediate commands: grep, less, pwd, diff, file, find and locate, head and tail, sort.
+<li>2.06 Changing password and shell
+<li>2.07 Dot files
+<li>2.08 Environment and shell variables
+<li>2.09 The command path
+<li>2.10 Special characters
+<li>2.11 Command line editing
+<li>2.12 Text editors
+<li>2.13 Getting online help
+<li>2.14 Shell input output: standard error, standard input redirection
+<li>2.15 Understanding error messages: Common errors
+<li>2.16 Listing and manipulating processes: command options, killing processes, job control, background processes.
+<li>2.17 File modes and permissions: modifying permissions, symbolic links.
+<li>2.18 Archiving and compressing files: gzip, tar, .tar.gz, zcat, others.
+<li>2.19 Linux directory essentials: root, /usr, kernel location.
+<li>2.20 Running commands as superuser: sudo, /etc/sudoers
+<li>2.21 Looking Forward
+</p><p>
+3 Devices
+<li>3.1 Device files
+<li>3.2 The sysfs device path
+<li>3.3 dd and devices
+<li>3.4 Device name summary: scsi disks /dev/sd*, optic devices /dev/sr*, pata disk /dev/hd*, terminals /dev/tty*, serial /dev/ttyS*, parallel /dev/lp*, audio /dev/snd/*, /dev/dsp, /dev/audio, creating device files.
+<li>3.5 udev: devtmpfs, udevd, udevadm, monitoring devices.
+<li>3.6 SCSI and the Linux kernel: SCSI, USB, ATA, access methods.
+</p><p>
+4 Disks and Filesystems
+<li>4.1 Partitioning Disk Devices: Viewing and changing a partition table, disk geometry, solid state disks.
+<li>4.2 Filesystems: types, creating, mounting, UUID, disk buffering, caching, mount options, /etc/fstab, repairing, special purpose filesystems.
+<li>4.3 Swap space: disk partition, file, how much do you need?
+<li>4.4 Looking forward: disks and user space
+<li>4.5 Inside a traditional filesystem: inode, user space, evolution of filesystems.
+</p><p>
+5 How the Linux Kernel boots
+<li>5.1 Startup messages
+<li>5.2 kernel init and options
+<li>5.3 kernel parameters
+<li>5.4 boot loaders: tasks, overview
+<li>5.5 GRUB into: devices, partitions, command line, config, install
+<li>5.6 UEFI Secure Boot Problems
+<li>5.7 Chainloading other operating systems
+<li>5.8 boot loader details: MBR boot, UEFI boot, how GRUB works.
+</p><p>
+6 How User Space Starts 
+<li>6.1 into to init
+<li>6.2 system v runlevels
+<li>6.3 identifying your init
+<li>6.4 systemd: units, dependencies, configuration, operation, adding units, process tracking, on-demand and resource-parallelized <li>startup, system v compatibility, auxilarery programs.
+<li>6.5 upstart: init, jobs, config, operation, logs, runlevels and system v compatibility
+<li>6.6 system V init: startup command, init link farm, run-ports, controlling init.
+<li>6.7 shutting down your system
+<li>6.8 initial RAM filesystem
+<li>6.9 Emergency boot and single-user mode
+</p><p>
+7 System Configuration: logging, system time, batch jobs, users
+<li>7.1 The structure of /etc
+<li>7.2 System logging: logger, configuration files
+<li>7.3 User management files: /etc/passwd, special users, the /etc/shadow, manipulating users and passwords, groups.
+<li>7.4 getty and login
+<li>7.5 setting the time: kernel time and time zones, network time.
+<li>7.6 scheduling recurring tasks with cron: installing crontab files, system crontab files, the future of cron
+<li>7.7 Scheduling One-Tim tasks with at
+<li>7.8 Understanding user IDs and User switching
+<li>7.9 User identification and authentication: using libraries for user information
+<li>7.10 PAM: PAM configuration, notes and passwords
+<li>7.11 looking forward
+</p><p>
+8 A Closer Look At Processes And Resource Utilization
+<li>8.1 Tracking processes
+<li>8.2 Finding open files with lsof
+<li>8.3 Tracing program execution and system calls: strace, ltrace
+<li>8.4 Threads: single threaded and multi-threaded processes, viewing threads
+<li>8.5 Introduction to resource monitoring
+<li>8.6 Measuring CPU time
+<li>8.7 Adjusting Process Priorities
+<li>8.8 Load Averages: uptime, high loads
+<li>8.9 Memory: how memory works, page faults
+<li>8.10 Monitoring CPU and memory performance with vmstat
+<li>8.11 I/O Monitoring: iostat, per-process I/O utilization and monitoring: iotop
+<li>8.12 Per-process monitoring with pidstat
+<li>8.13 Further topics
+</p><p>
+9 Understanding Your Network And Its Configuration
+<li>9.1 Network basics: packets
+<li>9.2 Network layers
+<li>9.3 The Internet layer: viewing your IP address, subnets, subnet masks and CIDR notation.
+<li>9.4 Routes and the kernel routing table: the default gateway.
+<li>9.5 Basic ICMP and DNS Tools: ping, traceroute, DNS and host
+<li>9.6 The Physical layer and Ethernet
+<li>9.7 Understanding kernel network interfaces
+<li>9.8 Introduction to network interface configuration: manually adding and deleting routes
+<li>9.9 Boot activated network configuration
+<li>9.10 Problems with manual and boot activated network configuration
+<li>9.11 Network configuration managers: network manager interacting, operation, configuration
+<li>9.12 Resolving hostnames: /etc/hosts, resolv.conf, caching and zero configuration DNS
+<li>9.13 Localhost
+<li>9.14 The transport layer: TCP, UDP, and services: TCP ports and connections, establishing TCP connections, port numbers and /etc/services, characteristics of TCP, UDP
+<li>9.15 Revisiting a simple local network
+<li>9.16 Understanding DHCP: linux dhcp client, linux dhcp servers
+<li>9.17 Configuring Linux as a router: internet uplinks
+<li>9.18 Private Networks
+<li>9.19 Network Address Translation (IP Masquerading)
+<li>9.20 Routers and Linux
+<li>9.21 Firewalls: Linux firewall basics, setting firewall rules, firewall strategies
+<li>9.22 Ethernet, IP, and ARP
+<li>9.23 Wireless Ethernet: iw, wireless security
+<li>9.24 Summary
+</p><p>
+10 Network Applications and Services
+<li>10.1 The basics of services: a closer look
+<li>10.2 Network servers
+<li>10.3 Secure Shell (SSH): sshd server, ssh client
+<li>10.4 The inetd and xinetd daemons: TCP wrappers, tcpd, /etc/hosts.allow, /etc/hosts.deny
+<li>10.5 Diagnostics tools: lsof, tcpdump, netcat, port scanning
+<li>10.6 Remote procedure call (RPC)
+<li>10.7 Network Security: typical vulnerabilities, security resources
+<li>10.8 Looking forward
+<li>10.9 Sockets: How processes communicate with the network
+<li>10.10 Unix domain sockets: advantages for developers, listing unix domain sockets
+</p><p>
+11 Introduction to shell scripts
+<li>11.1 shell script basics: limitations of shell scripts
+<li>11.2 Quoting and Literals: single, double, passing a literal sing quote
+<li>11.3 Special Variables: individual, number of, and all arguments ($1, $#, $@), script name ($0), process ID ($$), Exit code ($?)
+<li>11.4 Exit Codes
+<li>11.5 Conditionals: empty lists, tests, elif, &amp;&amp;, ||, testing conditions, matching strings with case.
+<li>11.6 Loops: for, while
+<li>11.7 Command Substitution
+<li>11.8 Temporary file management
+<li>11.9 Here Documents
+<li>11.10 Important shell script utilities: basename, awk, sed, xargs, expr, exec.
+<li>11.11 Subshells
+<li>11.12 incuding other files in scripts
+<li>11.13 Reading user input
+<li>11.14 When not to use shell scripts
+</p><p>
+12 Moving Files Across the Network
+<li>12.1 Quick Copy
+<li>12.2 rsync: basics, copy directory structure, using trailing slash, exclusing files and dirs, transfer integrity, verbose modes, compression, limiting bandwidth, transferring files, further rsync topics.
+<li>12.3 Introduction to file sharing
+<li>12.4 Sharing files with Samba: configuring server, server access control, passwords, starting server, diag and log files, confiure a file share, home dirs, sharing printers, using samba client, accessing files as a client
+<li>12.5 NFS Clients
+<li>12.6 Further network file service options and limitations.
+</p><p>
+13 User Environments
+<li>13.1 Guidelines for startup files
+<li>13.2 When to alter startup files
+<li>13.3 Shell startup file elements: the command path, man page path, the prompt, aliases, the permissions mask
+<li>13.4 Startup file order examples: bash, tcsh
+<li>13.5 Default user settings: shell defaults, editor, pager
+<li>13.6 Startup file pitfalls
+<li>13.7 Further startup topics
+</p><p>
+14 A Brief Survey of the Linux Desktop
+<li>14.1 Desktop Components: window managers, toolkits, environments, applications
+<li>14.2 A closer look at X Window System: display managers, network transparency
+<li>14.3 Exploring X Clients: X Events, Understanding X Input and settings
+<li>14.4 The future of X
+<li>14.5 D-Bus: system and session instances, monitoring dbus messages
+<li>14.6 Printing: CUPS, format converstion and print filters
+<li>14.7 Other desktop topics
+</p><p>
+15 Development Tools: Install with 'apt-get install build-essential'.
+<li>15.1 The C Compiler: Multiple source files, header (include) files and directories, linking with libraries, shared libraries. 
+<li>15.2 make: sample makefile, built-in rules, final program build, staying up to date, command line arguments and options, standard macros and variables, conventional targets, organizing a makefile.
+<li>15.3 Debuggers
+<li>15.4 Lex and Yacc
+<li>15.5 Scripting languages: Python, Perl, other
+<li>15.6 Java
+<li>15.7 Looking forward: compiling packages
+</p><p>
+16 Introduction to Compiling Software from C Source Code
+<li>16.1 Software Build Systems
+<li>16.2 Unpacking C Source Packages: where to starting
+<li>16.3 GNU Autoconf: example, installing, configure, environment variables, autoconf targets, autoconf log files, pkg-config
+<li>16.4 Installation Practice: where to install
+<li>16.5 Applying a patch
+<li>16.6 Troubleshooting Compiles and installations: specific errors
+<li>16.7 Looking forward
+</p><p>
+17 Building On the Basics
+<li>17.1 Web servers and applications
+<li>17.2 Databases
+<li>17.3 Virtualization
+<li>17.4 Distrubuted and On-Demand Computing
+<li>17.5 Embedded Systems
+<li>17.6 Final Remarks
+</p><p>
+BIBLIOGRAPHY<br>
+INDEX
+</p>
+</body>
+</html>
