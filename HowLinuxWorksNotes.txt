@@ -169,6 +169,42 @@ Preface
 13.7 Further startup topics
 
 14 A Brief Survey of the Linux Desktop
+14.1 Desktop Components: window managers, toolkits, environments, applications
+14.2 A closer look at X Window System: display managers, network transparency
+14.3 Exploring X Clients: X Events, Understanding X Input and settings
+14.4 The future of X
+14.5 D-Bus: system and session instances, monitoring dbus messages
+14.6 Printing: CUPS, format converstion and print filters
+14.7 Other desktop topics
+
+15 Development Tools: Install with 'apt-get install build-essential'.
+15.1 The C Compiler: Multiple source files, header (include) files and directories, linking with libraries, shared libraries. 
+15.2 make: sample makefile, built-in rules, final program build, staying up to date, command line arguments and options, standard macros and variables, conventional targets, organizing a makefile.
+15.3 Debuggers
+15.4 Lex and Yacc
+15.5 Scripting languages: Python, Perl, other
+15.6 Java
+15.7 Looking forward: compiling packages
+
+16 Introduction to Compiling Software from C Source Code
+16.1 Software Build Systems
+16.2 Unpacking C Source Packages: where to starting
+16.3 GNU Autoconf: example, installing, configure, environment variables, autoconf targets, autoconf log files, pkg-config
+16.4 Installation Practice: where to install
+16.5 Applying a patch
+16.6 Troubleshooting Compiles and installations: specific errors
+16.7 Looking forward
+
+17 Building On the Basics
+17.1 Web servers and applications
+17.2 Databases
+17.3 Virtualization
+17.4 Distrubuted and On-Demand Computing
+17.5 Embedded Systems
+17.6 Final Remarks
+
+BIBLIOGRAPHY
+INDEX
 
 
 
