@@ -137,3 +137,38 @@ Preface
 
 11 Introduction to shell scripts
 11.1 shell script basics: limitations of shell scripts
+11.2 Quoting and Literals: single, double, passing a literal sing quote
+11.3 Special Variables: individual, number of, and all arguments ($1, $#, $@), script name ($0), process ID ($$), Exit code ($?)
+11.4 Exit Codes
+11.5 Conditionals: empty lists, tests, elif, &&, ||, testing conditions, matching strings with case.
+11.6 Loops: for, while
+11.7 Command Substitution
+11.8 Temporary file management
+11.9 Here Documents
+11.10 Important shell script utilities: basename, awk, sed, xargs, expr, exec.
+11.11 Subshells
+11.12 incuding other files in scripts
+11.13 Reading user input
+11.14 When not to use shell scripts
+
+12 Moving Files Across the Network
+12.1 Quick Copy
+12.2 rsync: basics, copy directory structure, using trailing slash, exclusing files and dirs, transfer integrity, verbose modes, compression, limiting bandwidth, transferring files, further rsync topics.
+12.3 Introduction to file sharing
+12.4 Sharing files with Samba: configuring server, server access control, passwords, starting server, diag and log files, confiure a file share, home dirs, sharing printers, using samba client, accessing files as a client
+12.5 NFS Clients
+12.6 Further network file service options and limitations.
+
+13 User Environments
+13.1 Guidelines for startup files
+13.2 When to alter startup files
+13.3 Shell startup file elements: the command path, man page path, the prompt, aliases, the permissions mask
+13.4 Startup file order examples: bash, tcsh
+13.5 Default user settings: shell defaults, editor, pager
+13.6 Startup file pitfalls
+13.7 Further startup topics
+
+14 A Brief Survey of the Linux Desktop
+
+
+
