@@ -2,28 +2,41 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Back Panther</title>
 </head>
 
 <body>
-<h2>Back Panther</h2>
-<img src="BlackPanther.jpg"> 
-<img src="BlackPantherLimited1988.jpg"> 
-<img src="BlackPanther1988.jpg"> 
-<img src="BlackPanther2005.jpg"> 
-<img src="BlackPanther2009.jpg"> 
-<img src="BlackPanther2011.jpg"> 
-<img src="BlackPanther2016.jpg"> 
-<img src="BlackPanther2017.jpg"> 
-<img src="BlackPanther2099.jpg"> 
- <br>
+<img src="BlackPanther.jpg"><br>
 Series: on-going, at least 6 times!<br>
 Illustrator: Jack Kirby<br>
 Writer: Jack Kirby<br>
 Publisher: Marvel<br>
 <p>
 Series: 1. 1977 (#1-15); 2. 1988 (#1-4 limited series + #1-62); 3. 2005 (#1-41); 4. 2009 (#1-13); 5. 2011 (The Man Without Fear, 11 issues) 6. 2016 (#1-18 then 166-169?); I think if you add them all up (and a few I haven't found yet) you can jump from 18 to 166?
+</p><p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPantherLimited1988.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther1988.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2005.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2009.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2011.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2016.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2017.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackPanther2099.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
 </p><p>
 1977 Issue #1: King Solomon's Frog! <br>
 Black Panther helps Abner Little, a member of the Collectors, recover the Brass Frog, an ancient time machine.
