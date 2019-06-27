@@ -2,22 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Starslayer</title>
 </head>
 
 <body>
-<h2>Starslayer: The Log of the Jolly Roger</h2>
-<img src="starslayer1.jpg"> 
-<img src="starslayer2.jpg"> 
-<img src="starslayer3.jpg"> 
-<img src="starslayer4.jpg"> 
-<img src="starslayer5.jpg"> 
-<img src="starslayer6.jpg"> <br>
+<img src="starslayer1.jpg"><br>
 Creator: Mike Grell<br>
-Series: 6 issues mini series<br>
-Publisher: PC<br>
+Series: 6 issues mini series by PC<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="starslayer1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="starslayer2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="starslayer3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="starslayer4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="starslayer5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="starslayer6.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Mike Grell originally created Starslayer for DC Comics, but plans to publish it were halted after the mass cancellation of titles known as the DC Implosion. Instead, he offered it to Pacific Comics, who released it as a six issue series in 1982. 
 </p><p>
 It was originally intended as an ongoing series per Pacific Comics's publisher Bill Schanes but Grell's developing relationship with the new First Comics and previous working relationship with their editorial director Mike Gold (who had been Grell's editor at DC) swayed him to release future issues with First.
