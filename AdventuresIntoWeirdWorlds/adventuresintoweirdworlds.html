@@ -2,16 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Adventures Into Weird Worlds</title>
 </head>
 
 <body>
-<h2>Adventures Into Weird Worlds</h2>
-<img src="adventuresintoweirdworlds.jpg"> <br>
+<img src="adventuresintoweirdworlds01.jpg"> <br>
 Illustrator: Joe Maneely<br>
 Publisher: 1952-1954 Atlas<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds01.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds02.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds03.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds04.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds05.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds06.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds07.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds08.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds09.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adventuresintoweirdworlds10.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+
 About: Pre Comic Code Horror<br>
 </p><p>
 Issue #1:<ul>
@@ -19,7 +43,7 @@ Issue #1:<ul>
 <li>The Mad Thing! by Sol Brodsky</li>
 <li>The World That Vanished! by John Tartaglione</li>
 <li>The Terrible Trees! by George Tuska</li>
-
 </p>
+
 </body>
 </html>
