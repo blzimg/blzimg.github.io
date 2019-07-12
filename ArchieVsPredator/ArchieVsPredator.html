@@ -2,19 +2,36 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Archie vs Predator</title>
 </head>
 
 <body>
-<h2>Archie vs Predator</h2>
-<img src="ArchieVsPredator.jpg"> <br>
-Series: 4 issue mini series, 1 collection<br>
-Illustrator: Fernando Ruiz<br>
-Writer: Alex de Campi<br>
-Publisher: 2015 Dark Horse<br>
-About: Each issue released with 4 different covers, just like Marvel. So annoying.
+<img src="ArchieVsPredator1.jpg"> <br>
+4 issues, 1 collection 2015 Dark Horse<br>
+Illustrator: Fernando Ruiz, Writer: Alex de Campi
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ArchieVsPredator6.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+
 America's favorite teen meets the galaxy's fiercest hunter! Archie and friends hit Costa Rica for Spring Break, where party games and beach games are soon replaced by the Most Dangerous Game. 
 </p><p>
 What mysterious attraction does the gang hold for the trophy-collecting Predator, and will the kids even realize they’re in danger before it claims them all?
