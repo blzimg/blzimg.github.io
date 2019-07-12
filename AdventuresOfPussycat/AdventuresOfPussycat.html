@@ -2,24 +2,39 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Adventures of Pussycat</title>
 </head>
 
 <body>
-<h2>Adventures of Pussycat</h2>
 <img src="AdventuresOfPussycat1.jpg"> <br>
 Series: Strip running in various magazines, and a one-shot collection<br>
 Illustrator: Wally Wood, Bill Everett<br>
 Writer: Stan Lee<br>
 Publisher: Magazine Management Company (Martin Goodman Marvel sister company)<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="AdventuresOfPussycat1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="PussycatEx01.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="PussycatEx02.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 About: The Adventures of Pussycat was a one-shot comics magazine that reprinted the risque, black-and-white feature that ran throughout various men's adventure magazines published by Martin Goodman's Magazine Management Company in the 1960s. The feature's creative staff came largely from Magazine Management's sister company, Marvel Comics following the success of Harvey Kurtzman and Will Elder's color comics feature "Little Annie Fanny", published in Playboy magazine from 1962 to the 1980s.
 </p><p>
 Long-established comic-book artist Wally Wood, whose own similar 1968-1974 Sally Forth which would run in armed services publications, created the 1965 premiere.
 </p><p>
-Story: Pussycat, a secretary for S.C.O.R.E. (Secret Council of Ruthless Extroverts) is recruited to fight the agency's archenemsis, L.U.S.T.<br>
-<img src="PussycatEx01.jpg"> <img src="PussycatEx02.jpg">
+Story: Pussycat, a secretary for S.C.O.R.E. (Secret Council of Ruthless Extroverts) is recruited to fight the agency's archenemsis, L.U.S.T.
 </p>
 </body>
 </html>
