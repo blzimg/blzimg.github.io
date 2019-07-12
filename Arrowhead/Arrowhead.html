@@ -2,17 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Arrowhead</title>
 </head>
 
 <body>
-<h2>Arrowhead</h2>
-<img src="Arrowhead.jpg"> <br>
-Series: on-going, 4 issues<br>
-Illustrator: Joe Sinott, Joe Maneely<br>
-Publisher: 1954 Atlas (Marvel)<br>
+<img src="Arrowhead1.jpg"> <br>
+4 issues 1954 Atlas (Marvel)<br>
+Illustrator: Joe Sinott, Joe Maneely
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Arrowhead1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Arrowhead2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Arrowhead3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Arrowhead4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 The Native American warrior known as Arrowhead lived during the days of the American Frontier. He was the son of Pawnee chief Bear-That-Walks. Arrowhead was in direct competition with Running Wolf the son of the tribal medicine man Snake Fang.
 </p>
 </body>
