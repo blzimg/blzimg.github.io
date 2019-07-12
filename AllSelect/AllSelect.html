@@ -2,18 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>All Select</title>
 </head>
 
 <body>
-<h2>All Select Comics</h2>
-<img src="AllSelect.jpg"> <br>
-Series: on-going, 11 issues<br>
-Illustrator: Alex Schomburg<br>
-Writer: Alex Schomburg<br>
-Publisher: 1943 - 1946 Atlas (Marvel)<br>
+<img src="AllSelect1.jpg"> <br>
+11 issues 1943-1946 Atlas (Marvel)<br>
+Illustrator &amp; Writer: Alex Schomburg<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="AllSelect1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect6.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect7.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect8.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect9.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect10.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AllSelect11.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 The Vulture and his Batmen capture various important figures of the war effort until Cap and Bucky are taken to their aerie and overpower the Vulture. With their leader defeated, and the serum that gives them flight collected by Cap, the Batmen and Vulture will die within a few hours. Cap and Bucky inject the hostages with the serum, along with themselves, and they fly down from the aerie.
 </p>
 </body>
