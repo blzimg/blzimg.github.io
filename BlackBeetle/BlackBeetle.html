@@ -2,18 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>The Black Beetle</title>
 </head>
 
 <body>
-<h2>The Black Beetle</h2>
 <img src="BlackBeetle.jpg"> <br>
-Series: 4 issue mini series<br>
-Illustrator: Francesco Francavilla<br>
-Writer: Francesco Francavilla<br>
-Publisher: 2013 Dark Horse<br>
+4 issues 2013 Dark Horse<br>
+Created by Francesco Francavilla
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BlackBeetle.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackBeetle2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackBeetle3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackBeetle4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Black Beetle's investigation of two local mob bosses is interrupted when a mysterious explosion murders them and a pub full of gangsters-taking out most of Colt City's organized crime in one fell swoop. Who could pull off such a coup, and what danger might that murderous bomber do to Colt City and Black Beetle?
 </p>
 </body>
