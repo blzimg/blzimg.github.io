@@ -2,30 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Blade</title>
 </head>
 
 <body>
-<h2>Blade</h2>
-<img src="Blade1997preview.jpg"> 
-<img src="Blade1998movie.jpg"> 
-<img src="Blade1998series1.jpg"> 
-<img src="Blade2movie.jpg">
-<img src="Blade2002series2.jpg"> 
-<img src="Blade2006series3.jpg"> 
-<br>
-Series:<ul>
-<li>1997 Blade movie preview</li>
-<li>1998 Blade movie adaptation</li>
-<li>1998 Blade series 1</li>
-<li>2002 Blade 2 movie</li>
-<li>2002 Blade series 2</li>
-<li>2006 Blade series 3</li>
-</ul>
-Publisher: Marvel<br>
+<img src="Blade.jpg"><br>
+Movie 1998 and 2002 New Line Cinema. <br>
+1 issue 1997, 2 issues 1998, 1 issue 2002, 12 issue 2006-2007 by Marvel<br>
 <p>
-Blade's first appearance was in the comic book The Tomb of Dracula #10 (July 1973) as a supporting character. Other pre-movie appearances include:<ul>
+
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Blade.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade1997preview.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade1998movie.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade1998series1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade2movie.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade2002series2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blade2006series3.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Blade's first appearance was in the comic book <a href="../TombOfDracula/TombOfDracula.html">The Tomb of Dracula</a> #10 (July 1973) as a supporting character. Other pre-movie appearances include:<ul>
 <li>Marvel Preview #3, 8 (Sept. 1973)</li>
 <li>The Tomb of Dracula #10-14,17,19,21,24,30,41-45,48-54,58 (1973-1975)</li>
 <li>Fear #24</li>
