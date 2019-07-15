@@ -2,18 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Batman Vs. Predator</title>
 </head>
 
 <body>
-<h2>Batman Vs. Predator</h2>
-<img src="BatmanVsPredator.jpg"> <br>
-Series: 3 issue mini series<br>
-Illustrator: Andy Kubert, Adam Kubert, Chris Warner (cover)<br>
-Writer: Dave Gibbons<br>
-Publisher: Dark Horse<br>
+<img src="BatmanVsPredator1.jpg"> <br>
+3 issues Dark Horse<br>
+Illustrator: Andy Kubert, Adam Kubert, Chris Warner (cover), Writer: Dave Gibbons
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BatmanVsPredator1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BatmanVsPredator2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BatmanVsPredator3.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 The hunter becomes the hunted as Batman, Earth's ultimate detective, is pitted against Predator, the galaxy's most ruthless hunter! Neither is known for their ability to compromise, assuring readers a break-neck paced three-issue series! 
 </p>
 </body>
