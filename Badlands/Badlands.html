@@ -2,17 +2,37 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Badlands</title>
 </head>
 
 <body>
 <img src="Badlands.jpg"> <br>
-Series: 6 issue mini series and 1 collection<br>
-Illustrator: Vince Giarrano<br>
-Writer: Steven Grant<br>
-Publisher: 1993 Dark Horse<br>
+6 issues 1 collection 1993 Dark Horse<br>
+Illustrator: Vince Giarrano, Writer: Steven Grant
 <p>
+
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Badlands.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Badlands6.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 It's 1963, and Camelot reigns in the White House. In Chicago, a car thief named Connie Bremen is fresh out of Joliet and fresh out of luck. 
 </p><p>
 Severed from his past, shadowed by a sadistic ex-cellmate and famed for murder, Bremen is caught up in a maelstrom of sex, violence and conspiracy that forces him south... to Dallas, death and destiny. It's 1963 and America is about to die.
