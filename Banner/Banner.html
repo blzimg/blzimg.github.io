@@ -2,21 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Banner</title>
 </head>
 
 <body>
-<h2>Startling Stories Banner</h2>
-<img src="Banner1.jpg">
-<img src="Banner2.jpg"> <br>
-<img src="Banner3.jpg">
-<img src="Banner4.jpg"> <br>
-Series: 4 issue mini series<br>
-Illustrator: Richard Corben<br>
-Writer: Brian Azzarello<br>
-Publisher: 2001 Marvel<br>
+<img src="Banner1.jpg"><br>
+4 issues 2001 Marvel<br>
+Illustrator: Richard Corben, Writer: Brian Azzarello
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Banner1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Banner2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Banner3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Banner4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 What would you do if you knew you were a ticking time bomb? If you knew that your continued existence meant limitless death and destruction? What would you do if at any moment you could transform into the rampaging monster known as the Hulk? 
 </p><p>
 You see, nerdy scientist Bruce Banner has a big problem. When he loses his cool, the 98-lb. weakling transforms into a 1,000-lb., green-skinned engine of devastation! Relentlessly tormented by his monstrous "id," and vigilantly pursued by an elite military unit headed by the enigmatic Doc Samson, Banner has no where to hide ? and that's when the real trouble starts.
