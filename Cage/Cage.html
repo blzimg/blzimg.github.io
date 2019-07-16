@@ -2,19 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Cage</title>
 </head>
 
 <body>
-<h2>Cage</h2>
-<img src="Cage1992.jpg"> 
-<img src="Cage2002.jpg"> 
-<img src="Cage2017.jpg"> <br>
-Series: on-going<br>
-Publisher: 1992 Marvel<br>
+
+<img src="Cage1992.jpg"> <br>
+20 issues 1992, 5 issues 2002, 4 issues 2016 Marvel<br>
 <p>
-First series 1992-1993, 20 issues, second series 2002, 5 issues, third series 2016 4 issue.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Cage1992.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Cage2002.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Cage2017.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
 </p><p>
 1992 Issue #1: Cover pencils by Dwayne Turner, inks by Chris Ivy. The Drowning Man, script by Marc McLaurin, pencils by Dwayne Turner, inks by Chris Ivy.
 </p><p>
