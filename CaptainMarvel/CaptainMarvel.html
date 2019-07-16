@@ -2,21 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Captain Marvel</title>
 </head>
 
 <body>
-<h2>Captain Marvel</h2>
-<img src="CaptainMarvel1968.jpg"> 
-<img src="CaptainMarvel33.jpg"> 
-<img src="DeathOfCaptainMarvel1982.jpg"> 
-<img src="CaptainMarvel1989.jpg"> 
-<img src="CaptainMarvel1995.jpg"> 
-<img src="CaptainMarvel2000.jpg"> 
-<img src="CaptainMarvel2008.jpg"> <br>
-Series: on-going. First series 1968-1979, second 1989, third 1995, fourth 2000, fifth 2002, sixth 2008, seventh 2012-2014, eight 2014, ninth 2016, tenth 2017.<br>
-Publisher: 1968 Marvel<br>
+<img src="CaptainMarvel1968.jpg"> <br>
+1968-2017 by Marvel<br>
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel1968.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel33.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeathOfCaptainMarvel1982.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel1989.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel1995.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel2000.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CaptainMarvel2008.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
 </p><p>
 Following a trial in which DC Comics sued Fawcett Comics for breach of copyright, claiming Fawcett's Captain Marvel was too similar to Superman, the latter stopped publishing Captain Marvel. In the late sixties Marvel gained the trademark "Captain Marvel" with their first series.
 </p><p>
@@ -36,5 +50,6 @@ The character is Monica Rambeau, a police lieutenant from New Orleans who posses
 </p><p>
 1968 Issue #1 Captain Marvel battles a Kree Sentry in "Out of the Holocaust--a Hero!" Script by Roy Thomas, pencils by Gene Colan, inks by Vince Colletta. Colan/Colletta cover.
 </p>
+
 </body>
 </html>

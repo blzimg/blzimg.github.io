@@ -2,19 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Car Warriors</title>
 </head>
 
 <body>
-<h2>Car Warriors</h2>
-<img src="CarWarriors.jpg"> 
-<img src="CarWarriors2.jpg"> <br>
-<img src="CarWarriors3.jpg"> 
-<img src="CarWarriors4.jpg"> <br>
-Series: 4 issue mini series<br>
-Publisher: 1991 Epic (Marvel)<br>
+<img src="CarWarriors.jpg"> <br>
+4 issues in 1991 by Epic (Marvel)<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="CarWarriors.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CarWarriors2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CarWarriors3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CarWarriors4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Cover pencils by Steve Dillon, inks by Phil Winslade. Untitled story, script by Chuck Dixon, pencils by Steve Dillon, inks by Phil Winslade.
 </p><p>
 Hartoon attempts to recruit Chevy Vasquez to drive a load of Virunella from Fort Delorean in the Upper Peninsula of Michigan to Lansing.

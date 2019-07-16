@@ -2,19 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>the Cat</title>
 </head>
 
 <body>
-<h2>the Cat</h2>
-<img src="Cat.jpg"> 
-<img src="Cat2.jpg"> <br>
-<img src="Cat3.jpg"> 
-<img src="Cat4.jpg"> <br>
-Series: on-going, 4 issues<br>
-Publisher: 1972 Marvel<br>
+<img src="Cat.jpg"> <br>
+4 issues in 1972 by Marvel<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Cat.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Cat2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Cat3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Cat4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
+</p><p>
+See <a href="../Hellcat/Hellcat.html">Hellcat</a> series for more about the character.
+</p><p>
 #1: "Beware the Claws of the Cat!" Script by Linda Fite, pencils by Marie Severin, inks and cover by Wally Wood.
 </p><p>
 #2 "The Owl and the Pussycat!" Script by Linda Fite, pencils by Marie Severin, inks by Jim Mooney, cover by John Romita Sr.
