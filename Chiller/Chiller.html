@@ -2,19 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Chiller</title>
 </head>
 
 <body>
-<h2>Chiller</h2>
-<img src="Chiller.jpg"> 
-<img src="Chiller2.jpg"> 
-<img src="ChillerDDD.jpg"> <br>
-Series: two issue Graphic Novel<br>
-Publisher: 1993 Epic (Marvel), 2011 Devil's Due Digital<br>
+<img src="Chiller.jpg"> <br>
+2 issues in 1993 by Epic (Marvel), and 2011 Devil's Due Digital<br>
 <p>
-Epic: Cover art by John Ridgway. Chiller, script by James D. Hudnall, art by John Ridgway; Marx, an artist, is also a practitioner of magic who is recruited by the Architects to capture an escaped demon; He enlists the aid of Tracy King, a TV news reporter who is the last living descendant of the man who learned how to call up the demon hundreds of years earlier.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Chiller.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Chiller2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChillerDDD.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Cover art by John Ridgway. Chiller, script by James D. Hudnall, art by John Ridgway; Marx, an artist, is also a practitioner of magic who is recruited by the Architects to capture an escaped demon; He enlists the aid of Tracy King, a TV news reporter who is the last living descendant of the man who learned how to call up the demon hundreds of years earlier.
 </p><p>
 Devil's Due Digital: Brian Marx leads a double life. Most people think he's an artist living in Manhattan. Secretly, Brian's a Random Mage, a practitioner of Chaos Magic. Chaos magic, is a modern form of sorcery that allows him to turn ordinary objects into occult devices.
 </p><p>

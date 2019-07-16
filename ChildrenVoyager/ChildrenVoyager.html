@@ -2,21 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Children of the Voyager</title>
 </head>
 
 <body>
-<h2>Children of the Voyager</h2>
-<img src="ChildrenVoyager.jpg"> 
-<img src="ChildrenVoyager2.jpg"> <br>
-<img src="ChildrenVoyager3.jpg"> 
-<img src="ChildrenVoyager4.jpg"> <br>
-Series: 4 issue mini series<br>
-Illustrator: Paul Johnson<br>
-Writer: Nick Abadzis<br>
-Publisher: 1993 Marvel Frontier<br>
+
+<img src="ChildrenVoyager.jpg"><br>
+4 issues 1993 Marvel Frontier<br>
+Illustrator: Paul Johnson, Writer: Nick Abadzis
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="ChildrenVoyager.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChildrenVoyager2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChildrenVoyager3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChildrenVoyager4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 #1  Shadows and Fog. An immortal Wayfarer scattered the planet with incarnations of himself, hoping for absolute understanding of human life when re-absorbing his "children". But approaching his last child, Sam Wantling, he meets resistance. 
 </p><p>
 #2 Sam enlists the help of the world's most powerful witch to escape the grip of the Voyager, the immortal wayfarer who has come to claim him as his child.
