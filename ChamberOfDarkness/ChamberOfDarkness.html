@@ -2,17 +2,36 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Chamber Of Darkness</title>
 </head>
 
 <body>
-<h2>Chamber Of Darkness</h2>
 <img src="ChamberOfDarkness.jpg"> <br>
-Series: on-going, 8 issues<br>
-Cover: John Romita<br>
-Publisher: 1969 Marvel<br>
+8 issues from 1969-1970 by Marvel<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness6.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness7.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="ChamberOfDarkness8.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Issue #1: <ul>
 <li>It's Only Magic!, script by Stan Lee, pencils by John Buscema, inks by John Verpoorten. Tommy steals a spellbook and summons a Djinn who plans to destroy the world.</li>
 <li>Mr. Craven Buys His Scream House!, script by Denny O'Neil, art by Tom Sutton. Creighton Craven tries to destroy his grandfather's house.</li>
