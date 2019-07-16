@@ -2,16 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Book Of The Dead</title>
 </head>
 
 <body>
-<h2>Book Of The Dead</h2>
-<img src="BookOfTheDead.jpg"> <br>
-Series: on-going, 4 issues<br>
-Publisher: 1993 Marvel<br>
+<img src="BookOfTheDead1.jpg"> <br>
+4 issues 1993 Marvel<br>
+
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BookOfTheDead1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BookOfTheDead2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BookOfTheDead3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BookOfTheDead4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Painted cover art by Tennyson Smith. Mary Shelly's Frankenstein, script by Gary Friedrich (adaptation) and Mary Shelley (original story), art by Mike Ploog.
 </p><p>
 Robert Walton IV leads an expedition into the Arctic to retrieve Frankenstein's Monster which has been frozen into the ice. He relates to the cabin boy how the monster was created.

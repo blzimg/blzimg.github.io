@@ -2,19 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Bold Adventure</title>
 </head>
 
 <body>
-<h2>Bold Adventure</h2>
-<img src="BoldAdventure1.jpg"> 
-<img src="BoldAdventure2.jpg"> 
-<img src="BoldAdventure3.jpg"> 
- <br>
-Series: on-going, 3 issues<br>
-Publisher: 1983 PC<br>
+<img src="BoldAdventure1.jpg"> <br>
+3 issues 1983 PC
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BoldAdventure1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BoldAdventure2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BoldAdventure3.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 #1 Cover by Rudy Nebres. Edited by Bill Dubay. Stories by Bill Dubay. Art by Rudy Nebres, Bob McLeod, and Trevor Von Eeden. 
 </p><p>
 An anthology series from pioneering indie publisher Pacific Comics. 

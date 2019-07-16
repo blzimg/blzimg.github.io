@@ -2,22 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Blueberry</title>
 </head>
 
 <body>
-<h2>Blueberry</h2>
-<img src="Blueberry1.jpg"> 
-<img src="Blueberry2.jpg"> 
-<img src="Blueberry3.jpg"> 
-<img src="Blueberry4.jpg"> 
-<img src="Blueberry5.jpg"> <br>
-Series: 5 issue Graphic Novels<br>
+<img src="Blueberry1.jpg">  <br>
+5 issues 1989 Epic (Marvel)<br>
 Illustrator: Jean "Moebius" Giraud<br>
 Writer: Jean-Michael Charlier<br>
-Publisher: 1989 Epic (Marvel)<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Blueberry1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blueberry2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blueberry3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blueberry4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Blueberry5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 #1 "Chihuahua Pearl!" After the Civil War, U. S. Cavalry Lt. Mike Blueberry wanders the American South-west and Mexican border, getting into and out of trouble, but mostly in.
 </p><p>
 #2 "Ballad for a Coffin!" The U.S. government has sent Blueberry deep under cover in Mexico to recover a half million in gold before the confederates can use it to restart the civil war. His chances grow slimmer every day as the Mexican army and rebel deserters go after the money, themselves.
