@@ -2,16 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Cops The Job</title>
 </head>
 
 <body>
-<h2>Cops The Job</h2>
-<img src="CopsTheJob.jpg"> <br>
-Series: 4 issue mini series<br>
-Publisher: 1992 Marvel<br>
+<img src="CopsTheJob1.jpg"> <br>
+4 issues 1992 Marvel
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="CopsTheJob1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CopsTheJob2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CopsTheJob3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CopsTheJob4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 #1 Beginning a limited series about the dangers facing two New York City police officers in the course of their jobs. This issue: a serial killer is at large in "First Day." Written by Larry Hama and Joe Jusko (a former policeman), with art by Mike Harris and Jimmy Palmiotti. Cover by Michael Golden. 
 </p><p>
 #2 Follow the lives of two cops as they patrol their beat in "Getting to Know You." Real life situations written by real life ex-cop Joe Jusko. Written by Larry Hama and Joe Jusko, with art by Mike Harris and Jimmy Palmiotti. Cover by Michael Golden.
