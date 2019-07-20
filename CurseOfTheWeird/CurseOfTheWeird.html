@@ -2,21 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+
 <title>Curse of the Weird</title>
 </head>
-
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <body>
-<h2>Curse of the Weird</h2>
-<img src="CurseOfTheWeird.jpg"> 
-<img src="CurseOfTheWeird2.jpg"> 
-<img src="CurseOfTheWeird3.jpg"> 
-<img src="CurseOfTheWeird4.jpg"> <br>
-Cover: Steve Ditko<br>
-Writer: Stan Lee<br>
-Series: 4 issue mini-series story collections.<br>
-Publisher: 1993 Marvel<br>
+
+<img src="CurseOfTheWeird.jpg"><br>
+Cover by Steve Ditko, writen by Stan Lee<br>
+4 issues in 1993 by Marvel
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="CurseOfTheWeird.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CurseOfTheWeird2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CurseOfTheWeird3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="CurseOfTheWeird4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
+</p><p>
 Do Not Panic! art by Steve Ditko: An alien craft arrives over a city and descends; The pilot wears a frightening spacesuit, but since the military do not panic, they do not attack, and when the human pilot removes his helmet he is warmly greeted by the people of Mars.<br>
 The Brain! art by Russ Heath.<br>
 The Eye of Doom! art by Basil Wolverton.<br>
