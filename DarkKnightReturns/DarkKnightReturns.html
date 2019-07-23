@@ -2,21 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>the Dark Knight Returns</title>
 </head>
 
 <body>
-<h2>the Dark Knight Returns</h2>
-<img src="DarkKnightReturns.jpg"> 
-<img src="DarkKnightReturns2.jpg"> 
-<img src="DarkKnightReturns3.jpg"> 
-<img src="DarkKnightReturns4.jpg"> 
-<img src="DarkKnightReturnsWB.jpg"> <br>
-Creator: Frank Miller<br>
-Series: 4 issue mini-series, 1 Graphic Novel<br>
-Publisher: 1986 DC<br>
+<img src="DarkKnightReturns.jpg"><br>
+Created by Frank Miller<br>
+4 issues, 1 Graphic Novel in 1986 by DC
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="DarkKnightReturns.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DarkKnightReturns2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DarkKnightReturns3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DarkKnightReturns4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DarkKnightReturnsWB.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Set 20 years in the future, this story finds that in the absence of superheroes, criminals have run amok, and a gang called the Mutants are terrorizing Gotham City; Bruce Wayne has been retired from super-heroing for 10 years following the death of Jason Todd, the second Robin; Despite Wayne's funding of the rehabilitation of Harvey Dent (Two-Face), Dent returns to being a super-villain; Bruce, overcome with the grief over what Gotham has become, dons the Batman costume again and captures Dent.
 </p><p>
 An aging Batman battles the Mutant gang and their anonymous leader; While walking to work, considering retirement, Jim Gordon is almost killed by a 17-year old boy with an M60; Carrie Kelly, a young girl who owes her life to Batman, seeks out her hero and becomes Robin.
