@@ -2,17 +2,39 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Dept. H</title>
 </head>
 
 <body>
-<h2>Dept. H</h2>
-<img src="DeptH.jpg"> <br>
+<img src="DeptH01.jpg"> <br>
 Creator: Matt Kindt<br>
-Series: 2016, 22 issues<br>
-Publisher: Dark Horse<br>
+24 issues 2016, 4 issues 2018 by Dark Horse
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="DeptH01.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH02.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH03.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH04.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH05.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH06.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH07.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH08.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DeptH09.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
+</p><p>
 From New York Times best-selling MIND MGMT creator Matt Kindt comes an exciting new undersea sci-fi mystery. Mia is a special investigator hired to uncover possible sabotage taking place at a deep-sea research station. What she finds is a mind-blowing crime scene filled with suspects with terrible secrets, strange deep-sea creatures, and an impending flood! 
 </p>
 </body>
