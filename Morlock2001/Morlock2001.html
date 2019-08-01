@@ -2,19 +2,36 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Morlock 2001 </title>
 </head>
 
 <body>
 <img src="Morlock2001.jpg"> <br>
-Series: 3 issues 1975<br>
-Publisher: Atlas <br>
+3 issues in 1975 by Atlas (Seaboard) <br>
 Cover by Al Milgrom and Dick Giordano<br>
 Illustrated by Al Milgrom and Jack Abel<br>
 Written by Michael Fleisher<br>
 
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Morlock2001.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Morlock2001_2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Morlock2001_3.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
+</p><p>
 In the far-off era of 2001 AD, a genetic experiment creates the humanoid plant Morlock. Used as an assassin, he rebels against his totalitarian masters when he discovers his true nature, becoming the worlds strangest superhero. Part of the short-lived Atlas superhero line from former Marvel publisher Martin Goodman. 
 </p>
 </body>
