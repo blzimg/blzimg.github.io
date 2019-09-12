@@ -2,19 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>the Names of Magic</title>
 </head>
 
 <body>
 <img src="NamesOfMagic1.jpg"> <br>
-Series: 5 issues 2001, 1 collection TPB<br>
-Publisher: Vertigo (DC)<br>
-Written by Dylan Horrocks<br>
-Illustrations by Richard Case<br>
-Cover by John Bolton<br>
+5 issues in 2001, 1 collection TPB by Vertigo (DC)
 <p>
-Tim Hunter is back (<a href="https://blzim.github.io/kb/Creation/BooksOfMagic/BooksOfMagic.html">Books of Magic</a>), and he has finally accepted the role he plays in the grander scheme of things, as he learns to recapture his magic.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="NamesOfMagic1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="NamesOfMagic2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="NamesOfMagic3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="NamesOfMagic4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="NamesOfMagic5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Tim Hunter is back (<a href="../BooksOfMagic/BooksOfMagic.html">Books of Magic</a>), and he has finally accepted the role he plays in the grander scheme of things, as he learns to recapture his magic.
 </p>
 </body>
 </html>
