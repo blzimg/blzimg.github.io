@@ -2,16 +2,39 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Mickey Mouse</title>
 </head>
 
 <body>
-<h2>Mickey Mouse</h2>
-<img src="MickeyMouse.jpg"> <br>
+Mickey Mouse<br>
+<img src="MickeyMouse1.jpg" title="Steamboat Willie"> <br>
 Creators: Walt Disney, Ub Iwerks<br>
 Publisher: Disney 1928<br>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse1.jpg" title="Steamboat Willie"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse2.jpg" title="Plane Crazy"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse3.jpg" title="The Karnival Kid"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse4.jpg" title="Mickey's Orphans"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse5.jpg" title="Building a Building"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse6.jpg" title="The Mad Doctor"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse7.jpg" title="Hollywood Party"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse8.jpg" title="The Band Concert"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse9.jpg" title="Thru the Mirror"></div>
+<div class="mySlides" style="text-align: center;"><img src="MickeyMouse10.jpg" title="The End"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
 Mickey Mouse is a funny animal cartoon character and the mascot of The Walt Disney Company which has generated over $6 billion US Dollars. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.
 </p><p>
 Mickey first appeared in the short Plane Crazy, debuting publicly in the short film Steamboat Willie (1928), one of the first sound cartoons. He went on to appear in over 130 films, including The Band Concert (1935), Brave Little Tailor (1938), and Fantasia (1940). Mickey appeared primarily in short films, but also occasionally in feature-length films. Ten of Mickey's cartoons were nominated for the Academy Award for Best Animated Short Film, one of which, Lend a Paw, won the award in 1942. In 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame.
