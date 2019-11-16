@@ -1,6 +1,14 @@
-﻿Cosmic Odyssey
-Star Wars: Darth Vader Vol. 1
+﻿Star Wars: Darth Vader Vol. 1
 Star Wars: Knights of the Old Republic
+Star Wars: The Crimson Empire Saga
+Star Wars: Dark Empire Trilogy
+Star Wars: Rebel Heist
+Star Wars Tales (Anthology)
+Star Wars: Princess Leia
+Star Wars Vol. 1: Skywalker Strikes
+Star Wars Legacy
+
+
 Irredeemable Vol. 1 & Vol. 2
 Shade The Changing Girl Vol. 1
 The Walking Dead Compendium Three
@@ -12,11 +20,8 @@ Motor Crush
 Barrier
 Descender, Vol. 1: Tin Stars
 Queen & Country Vol. 1
-Star Wars Legacy
 JLA One Million
 Manifest Destiny
-Star Wars: The Crimson Empire Saga
-Comic Book History of Comics
 March: Book One
 Private Eye
 Southern Bastards Volume 1 and 2
@@ -34,7 +39,6 @@ Grass Kings
 Runaways Vol. 1
 Infinite Crisis
 Outcast Volume 1
-Star Wars: Dark Empire Trilogy
 Injection, Vol. 1
 Son of Hitler
 Divinity
@@ -42,7 +46,6 @@ The Sixth Gun Vol. 1
 Kill or Be Killed Vol. 1
 Cosmic Ghost Rider
 New 52 Justice League: Forever Evil
-Black
 Super Sons (Rebirth)
 Generation X
 Unnatural
@@ -87,7 +90,6 @@ Rai
 Mother Panic Vol. 1
 Shadowman
 Bloodshot
-Star Wars Tales (Anthology)
 Letter 44 Vol. 1
 Analog
 Good-bye, Chunky Rice
@@ -115,7 +117,6 @@ Skyward Vol. 1
 Crisis On Infinite Earths
 Mooncop
 Chrononauts
-Star Wars Vol. 1: Skywalker Strikes
 Manhunter (2004) Vol. 1 + Vol. 2
 Lion Forge – Nobel
 Harvey Pekar’s Cleveland
@@ -148,12 +149,10 @@ The Dark Tower Vol. 1 & Vol. 2
 Nightwing Rebirth Vol. 1
 Justice League: The Darkseid War (New 52)
 The Boys
-Star Wars: Princess Leia
 Mage: The Hero Discovered
 American Vampire Vol. 1
 Nemo: Heart of Ice
 Darth Vader and Son
-Star Wars: Rebel Heist
 Luthor
 Happy!
 Inhumans: By Right of Birth
@@ -197,6 +196,7 @@ Jack Kirby 100th Celebration Collection
 Last Days of the Justice Society
 Wanted
 
+=================================================================
 DISNEY MOVIES
 Snow White and the Seven Dwarfs	December 21, 1937	
 Pinocchio	February 7, 1940	
@@ -358,4 +358,3 @@ Toy Story 4	June 21, 2019	Pixar Animation Studios
 The Lion King	July 19, 2019	Fairview Entertainment
 Maleficent: Mistress of Evil	October 18, 2019	Roth Films
 Frozen 2
-
