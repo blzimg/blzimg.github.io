@@ -1,16 +1,4 @@
-﻿Star Wars: Darth Vader Vol. 1
-Star Wars: Knights of the Old Republic
-Star Wars: The Crimson Empire Saga
-Star Wars: Dark Empire Trilogy
-Star Wars: Rebel Heist
-Star Wars Tales (Anthology)
-Star Wars: Princess Leia
-Star Wars Vol. 1: Skywalker Strikes
-Star Wars Legacy
-
-
-Irredeemable Vol. 1 & Vol. 2
-Shade The Changing Girl Vol. 1
+﻿Shade The Changing Girl Vol. 1
 The Walking Dead Compendium Three
 Farmhand
 Alan Moore’s Writing For Comics
@@ -195,6 +183,18 @@ Jack Kirby 100th Celebration Collection
 1963
 Last Days of the Justice Society
 Wanted
+
+
+Star Wars: Darth Vader Vol. 1
+Star Wars: Knights of the Old Republic
+Star Wars: The Crimson Empire Saga
+Star Wars: Dark Empire Trilogy
+Star Wars: Rebel Heist
+Star Wars Tales (Anthology)
+Star Wars: Princess Leia
+Star Wars Vol. 1: Skywalker Strikes
+Star Wars Legacy
+
 
 =================================================================
 DISNEY MOVIES
