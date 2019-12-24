@@ -4,15 +4,32 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="../slideshow.css">
 <script src="../slideshow.js"></script>
-<title>Spoof</title>
+<title></title>
 </head>
 
 <body>
-<img src="Spoof.jpg"> <br>
-Series: 5 issues 1970 - 1973<br>
-Publisher: Marvel<br>
+<img src="Spoof1.jpg"> <br>
+5 issues from 1970 - 1973 by Marvel<br>
 <p>
-Humor anthology in magazine format similar to Mad or Cracked Magazine.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Spoof1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Spoof2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Spoof3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Spoof4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Spoof5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Humor anthology in magazine format similar to Mad or Cracked Magazine, with covers by <a href="../MarieSeverin/MarieSeverin.html">Marie Severin</a>.
 </p>
 </body>
 </html>
