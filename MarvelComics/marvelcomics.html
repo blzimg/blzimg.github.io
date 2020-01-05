@@ -2,20 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
-<title>Marvel Mystery Comics</title>
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
+<title>Marvel Comics</title>
 </head>
 
 <body>
-<img src="MarvelComics001.jpg"> 
-<img src="MarvelMysteryComics2.jpg">
-<img src="MarvelMysteryComics1.jpg"> <br>
-Released: October 1939<br>
-Publisher: <a href="../../Publisher/Marvel.html">Marvel Comics</a><br>
-Illustrators: Frank Paul<br>
-Writer: Ben Thompson
+<img src="MarvelComics001.jpg"> <br>
+October 1939 by <a href="../Marvel/Marvel.html">Marvel Comics</a><br>
 <p>
-About: The series continues as Marvel Mystery Comics #2-93 when the title is changed to Marvel Tales in 1949. Then gets brought back in 1999 with a confusing one-shot issue #1 (note Blackstone the Magician being used as a shield and the Blonde Phantom getting out of the line of fire at the bottom). 
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="MarvelComics001.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelMysteryComics2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelMysteryComics1.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Illustrated by Frank Paul and written by Ben Thompson
+<p>
+The series continues as Marvel Mystery Comics #2-93 when the title is changed to Marvel Tales in 1949. Then gets brought back in 1999 with a confusing one-shot issue #1 (note Blackstone the Magician being used as a shield and the Blonde Phantom getting out of the line of fire at the bottom). 
 </p><p>
 Story: The Human Torch<br>
 After the Scientist's Guild convinces inventor Horton to dispose of his new creation, the Human Torch, clever criminal Tony Sardo figures out a way to use this creation for his own evil purposes.
