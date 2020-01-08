@@ -2,18 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Hillbilly</title>
 </head>
 
 <body>
-<h2>Hillbilly</h2>
 <img src="Hillbilly1.jpg"> <br>
-Series: on-goin, 12 issues<br>
-Creator: Eric Powell<br>
-Publisher: 2016 Albatross<br>
+12 issues from 2016 - 2018, created by Eric Powell with <a href="../Albatross/Albatross.html">Albatross</a>
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Hillbilly1.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Story, Art, Self Published by Eric Powell. An Appalachian Mountain fantasy epic that tells the story of Rondel. A lonely figure who wanders the wooded hills among witches and magical creatures as a folktale hero to those who dwell in this gritty dream world.
 </p>
+
 </body>
 </html>
