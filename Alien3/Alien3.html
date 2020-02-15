@@ -2,16 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Alien 3</title>
 </head>
 
 <body>
-<img src="Alien3_1.jpg" title="cover by Arthur Suydam">
-<img src="Alien3_2.jpg" title="cover by Arthur Suydam">
-<img src="Alien3_3.jpg" title="cover by Arthur Suydam"> <br>
+<img src="Alien3_1.jpg" title="cover by Arthur Suydam"> <br>
 3 issue movie adaptation in 1992 by Dark Horse
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Alien3_1.jpg" title="cover by Arthur Suydam"></div>
+<div class="mySlides" style="text-align: center;"><img src="Alien3_2.jpg" title="cover by Arthur Suydam"></div>
+<div class="mySlides" style="text-align: center;"><img src="Alien3_3.jpg" title="cover by Arthur Suydam"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 In 2179 a fire starts aboard the Colonial Marine spaceship Sulaco. The computer launches an escape pod containing Ellen Ripley, the young girl Newt, Hicks, and the damaged android Bishop; all four are in cryonic stasis. Scans of the crew's cryotubes show a queen facehugger attached to one member. 
 </p><p>
 The pod crash lands on Fiorina "Fury" 161, a foundry facility and penal colony inhabited by male inmates with double-Y chromosome syndrome, a genetic mutation present in some males in the 22nd century which gives the afflicted individual a predisposition for brutal antisocial behavior such as rape and murder. 
