@@ -2,21 +2,39 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Maximortal </title>
 </head>
 
 <body>
-<img src="Maximortal1.jpg" title="Maximortal"> <img src="Maximortal.jpg"><br>
-Series: 7 issues, 2 Graphic Novels<br>
-Publisher: King Hell<br>
-Created by Rick Veitch<br>
+<img src="Maximortal1.jpg"><br>
+7 issues, 2 Graphic Novels by King Hell
 <p>
-Seven years before The Amazing Adventures of Kavelier and Clay, Rick Veitch married the larcenous history of the comics business to the outrageous themes and characters of his infamous Brat Pack universe, creating one of the most startling and uncompromising visions of the super-hero archetype ever put to paper.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Maximortal1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Maximortal2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Maximortal3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Maximortal4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Maximortal5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Maximortal6.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BoyMaximortal.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
 </p><p>
-<img src="BoyMaximortal.jpg">
+<a href="../RickVeitch/RickVeitch.html">Rick Veitch</a> married the larcenous history of the comics business to the outrageous themes and characters of his infamous Brat Pack universe, creating one of the most startling and uncompromising visions of the super-hero archetype ever put to paper.
 </p><p>
 Boy Maximortal continues the story of True-Man, now a teenager hiding from an increasingly desperate military while trying to come to grips with powers far beyond those of normal men, all played against a backdrop of the sleazy underworld of comic book publishing. Veitch’s superhero deconstruction digs deep into the roots and heart of a cultural mythos that has come to define our times.
 </p>
+
 </body>
 </html>
