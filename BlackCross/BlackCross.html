@@ -2,15 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
-<title>Black Cross Special</title>
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
+<title>Black Cross</title>
 </head>
 
 <body>
 <img src="BlackCross.jpg"> <br>
-1 issue 1988 Dark Horse<br>
-Created by  Chris Warner
+1988 by Dark Horse<br>
+Created by Chris Warner
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BlackCross.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackCross2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackCross3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackCross4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BlackCross5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 The return of one of Dark Horse's most requested characters! Join Conrad, the man branded by his own action as Black Cross, as he makes his way in a violent future. Reprinting the two stories from Dark Horse Presents #1 &amp; #3, with ten pages of new material, and a new cover painted by Chris Warner.
 </p>
 
