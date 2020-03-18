@@ -2,15 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Ultraman</title>
 </head>
 
 <body>
-<h2>Ultraman</h2>
-<img src="Ultraman.jpg"> <br>
-Creator: Eiji Tsuburaya<br>
-Publisher: Tokyo Broadcasting System (TBS) <br>
+<img src="Ultraman.jpg">
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Ultraman.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Ultraman1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Ultraman2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Ultraman3.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Created by Eiji Tsuburaya in 1966, owned by Tokyo Broadcasting System (TBS), comics licensed to Harvey in 1993.
 <p>
 Ultraman is a Japanese tokusatsu science fiction television series created by Eiji Tsuburaya. Ultraman is a follow-up to Ultra Q, though not technically a sequel or spin-off. The show was produced by Tsuburaya Productions and was broadcast on Tokyo Broadcasting System (TBS) from July 17, 1966 to April 9, 1967, with a total of 39 episodes (40, counting the pre-premiere special that aired on July 10, 1966).
 </p><p>

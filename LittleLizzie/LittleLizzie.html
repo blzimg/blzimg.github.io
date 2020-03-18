@@ -2,17 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Little Lizzie</title>
 </head>
 
 <body>
-Little Lizzie <br>
-<img src="LittleLizzie.jpg"> <br>
-Series: 1949 5 issues, 1953 3 issues<br>
-Publisher: Atlas (Marvel)<br>
+<img src="LittleLizzie.jpg">
 <p>
-Short story humor based, like Little Lulu or Little Aspirin.
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="LittleLizzie.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="LittleLizzie2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="LittleLizzie3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="LittleLizzie4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="LittleLizzie5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+1949 5 issues in 1949, 3 issues in 1959 by Atlas (Marvel).
+<p>
+Short strip humor based stories, like Little Lulu, Little Aspirin, or Nancy.
 </p>
 </body>
 </html>
