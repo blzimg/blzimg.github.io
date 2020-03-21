@@ -2,17 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Howard The Duck</title>
 </head>
 
 <body>
-Howard The Duck<br>
-<img src="HowardTheDuck1.jpg"> <br>
-Series: First Series was 33 issues 1976-1986. The Movie in 1986. <br>
-6 issues in 2002. 4 issues in 2007. 5 issues in 2015. 11 issues in 2016.<br>
-Publisher: Marvel<br>
+<img src="HowardTheDuck1.jpg">
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="HowardTheDuck1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HowardTheDuck2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HowardTheDuck3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HowardTheDuck4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HowardTheDuck5.jpg"></div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+33 issues from 1976-1986, 6 issues in 2002, 4 issues in 2007, 5 issues in 2015, 11 issues in 2016 by Marvel. The Movie in 1986.
+</p><p>
 Howard the Duck is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Steve Gerber and artist Val Mayerik. Howard the Duck first appeared in Adventure into Fear #19 (cover-dated Dec. 1973) and several subsequent series have chronicled the misadventures of the ill-tempered, anthropomorphic "funny animal" trapped on a human-dominated Earth.
 </p><p>
 Howard's adventures are generally social satires, while a few are parodies of genre fiction with a metafictional awareness of the medium. The book is existentialist, and its main joke, according to Gerber, is that there is no joke: "that life's most serious moments and most incredibly dumb moments are often distinguishable only by a momentary point of view." This is diametrically opposed to screenwriter Gloria Katz, who, in adapting the comic to the screen, declared, "It's a film about a duck from outer space... It's not supposed to be an existential experience".

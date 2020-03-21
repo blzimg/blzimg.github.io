@@ -2,16 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Doc Savage</title>
 </head>
 
 <body>
-<img src="DocSavageMarch1933.jpg"> <br>
-30 issues in 1933 by  Street &amp; Smith<br>
-8 issues in 1972, 8 issues in 1975 by Marvel<br>
-4 issues in 1987, 24 issues in 1998, 17 issues in 2010 by DC<br>
+<img src="DocSavage1.jpg">
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="DocSavage1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DocSavage2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DocSavage3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DocSavage4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DocSavage5.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="DocSavage6.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+30 issues in 1933 by <a href="../StreetSmith/StreetSmith.html">Street &amp; Smith</a>, 8 issues in 1972, 8 issues in 1975 by Marvel, 4 issues in 1987, 24 issues in 1998, 17 issues in 2010 by DC.
+</p><p>
 Doc Savage is a fictional character originally published in American pulp magazines during the 1930s and 1940s. He was created by publisher Henry W. Ralston and editor John L. Nanovic at Street &amp; Smith Publications, with additional material contributed by the series main writer, Lester Dent. The illustrations were by Walter Baumhofer, Paul Orban, Emery Clarke, Modest Stein, and Robert G. Harris.
 </p><p>
 The heroic-adventure character would go on to appear in other media, including radio, film, and comic books, with his adventures reprinted for modern-day audiences in a series of paperback books, which had sold over 20 million copies by 1979. Into the 21st century, Doc Savage has remained a nostalgic icon in the U.S., referenced in novels and popular culture. Stan Lee has credited Doc Savage as being the forerunner to modern superheroes.
