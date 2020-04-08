@@ -2,17 +2,36 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Witchcraft</title>
 </head>
 
 <body>
-<h2>Witchcraft</h2>
 <img src="Witchcraft01.jpg">
-<img src="Witchcraft02.jpg"> <br>
-Series: on-going<br>
-Publisher: 1952 Avon<br>
 <p>
+
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft01.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft02.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft03.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft04.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft05.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="Witchcraft06.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+6 issues in 1952 by Avon
+</p><p>
 Heritage of Horror!", script by Sol Cohen, art by Joe Kubert. Weird events occur when Julian Daniels puts brush to canvas. <br>
 "Devil-Music!", pencils by Gene Fawcette, inks by Vince Alascia. A beautiful young singer discovers what brings evil to life.<br>
 "This Ship Is Doomed!" The Indies Queen and its passengers were destined for disaster. "Demon's Bargain!" text story.<br>
