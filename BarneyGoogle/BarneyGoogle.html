@@ -2,16 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Barney Google</title>
 </head>
 
 <body>
-Barney Google and Snuffy Smith<br>
-<img src="BarneyGoogle001.jpg"> <br>
+<img src="BarneyGoogle001.jpg">
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="BarneyGoogle001.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BarneyGoogle002.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BarneyGoogle003.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="BarneyGoogle004.jpg"></div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Series: Newspaper Comic Strip 1919<br>
 Publisher: King Featuers Syndicate<br>
-Written and Illustrated by Billy DeBeck, Fred Lasswell, John Rose<br>
+Written and Illustrated by <a href="../BillyDeBeck/BillyDeBeck.html">Billy DeBeck</a>
 <p>
 Barney Google and Snuffy Smith, originally Take Barney Google, F'rinstance, is an American comic strip created by cartoonist Billy DeBeck. Since its debut on June 17, 1919, the strip has gained a large international readership, appearing in 900 newspapers in 21 countries. The initial appeal of the strip led to its adaptation to film, animation, popular song and television. It added several terms and phrases to the English language and inspired the 1923 hit tune "Barney Google (with the Goo-Goo-Googly Eyes)" with lyrics by Billy Rose, as well as the 1923 record, "Come On, Spark Plug!"
 </p><p>
