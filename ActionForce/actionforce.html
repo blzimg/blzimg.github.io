@@ -2,17 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Action Force</title>
 </head>
 
 <body>
-<img src="actionforce1.jpg"> <img src="actionforce.jpg"> <img src="actionforce2.jpg"><br>
-Series: An International mess<br>
-Issues: All over the place, all over the world<br>
+<img src="actionforce1.jpg">
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="actionforce1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="actionforce2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="actionforce3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="actionforce4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Publisher: Marvel UK</a> <br>
-Illustrators: various<br>
-Writers: various<br> 
 <p>
 About: Action Force was a brand of European action figures released in the 1980s that was based on the Action Man toyline used to introduce G.I. Joe toys to European markets. Several publishing companies have produced comic books based on the toys.
 </p><p>

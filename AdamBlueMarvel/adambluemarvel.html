@@ -2,13 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Adam: Legend Of The Blue Marvel</title>
 </head>
 
 <body>
-<h2>Adam: Legend Of The Blue Marvel</h2>
-<img src="adambluemarvel.jpg"> <br>
+<img src="adambluemarvel1.jpg">
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="adambluemarvel1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adambluemarvel2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adambluemarvel3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adambluemarvel4.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="adambluemarvel5.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
 Series: 4 issue mini series, 1 Graphic Novel collection <br>
 Publisher: 2009 Marvel</a><br>
 Illustrator: Mar Broome<br>
