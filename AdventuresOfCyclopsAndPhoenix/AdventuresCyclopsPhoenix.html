@@ -2,14 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Adventures of Cyclops and Phoenix</title>
 </head>
 
 <body>
-<img src="AdventuresCyclopsPhoenix01.jpg"> <br>
-4 issues 1994 Marvel <br>
+<img src="AdventuresCyclopsPhoenix01.jpg">
 <p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="AdventuresCyclopsPhoenix01.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AdventuresCyclopsPhoenix02.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AdventuresCyclopsPhoenix03.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="AdventuresCyclopsPhoenix04.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+
+</p><p>
+4 issues 1994 Marvel
+</p><p>
 About: The Adventures of Cyclops and Phoenix was a four-issue comic book mini-series that revealed much of the back story for the character Cable, much of which had been implied before, but was still shrouded in mystery and uncertainty.
 </p><p>
 The series takes place shortly after the wedding of Cyclops and Jean Grey in X-Men #30, some time after the events of X-Factor #68 (approximately 3 years in real time, but perhaps only a year or less in the timeline of the comic books).
@@ -23,5 +43,6 @@ The original baby was left behind, and was raised by Cyclops and Phoenix. As he 
 </p><p>
 All together, they spent 12 years raising Nathan Summers, who never knew they were his true parents. When the Mother Askani eventually died, their minds were brought back to their physical bodies, just after a combined effort of Slym, Redd and Nate finally defeating Apocalypse.
 </p>
+
 </body>
 </html>
