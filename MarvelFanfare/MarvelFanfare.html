@@ -2,15 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Marvel Fanfare</title>
 </head>
 
 <body>
-<h2>Marvel Fanfare</h2>
-<img src="MarvelFanfare001.jpg"> <br>
-Series: on-going, 1982 (#1-60), vol2 1996 (#1-6)<br>
-Publisher: 1982-1991 Marvel<br>
+<img src="MarvelFanfare001.jpg">
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare001.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare002.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare003.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare004.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare005.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="MarvelFanfare006.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+60 issues starting in 1982 by Marvel Comics.
 <p>
 Marvel Fanfare # 1-4 Story:<br>
 Karl Lykos' old girlfriend Tanya Anderssen contacts the Angel and asks him to accompany him on a trip to find Sauron. Angel thinks he's dead, or at least pretends to think so considering the X-Men met Lykos not too long ago (but maybe they never had time to tell Angel about it), but Anderssen is able to prove he's alive and Angel agrees to help. 

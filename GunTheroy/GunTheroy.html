@@ -2,19 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Gun Theroy</title>
 </head>
 
 <body>
-Gun Theroy<br>
-<img src="GunTheroy.jpg"> <br>
-Series: Gun Theroy <br>
-Publisher: Epic (Marvel)<br>
-Written by Daniel Way<br>
-Illustrations by Jon Proctor<br>
+<img src="GunTheroy.jpg">
 <p>
-Harvey is a contract killer who surfaces only to cap fools and get paid like a ghost cutting a bloody swath through the living world, invisible and therefore untouchable. But now, the ghost is being haunted by someone from the real world, a woman whom Harvey simply can't get out of his head. A woman who's made Harvey so damn crazy he just might decide that living is worth the risk of dying. 
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="../EpicComics/Epic19.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="GunTheroy2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="GunTheroy.jpg"></div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+2003 by Epic (Marvel) which was planned for 4 issues but only ran for 2. Picked up as all 4 issues in 2016 by Dark Horse.
+</p><p>
+Everyone who’s laid eyes on Harvey is dead. That’s because Harvey is a hired killer whose victims never see him until it’s too late. Through years of practice, Harvey’s appearance and demeanor have become so devoid of humanity that he has become invisible. Unknowable. Untouchable. Until Harvey meets a woman who, strangely, can see him.
 </p>
 </body>
 </html>
