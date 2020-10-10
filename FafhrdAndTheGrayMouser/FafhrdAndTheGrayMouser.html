@@ -2,20 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Fafhrd and the Gray Mouser</title>
 </head>
 
 <body>
-<h2>Fafhrd and the Gray Mouser</h2>
 <img src="FafhrdAndTheGrayMouser1.jpg"> 
-<img src="FafhrdAndTheGrayMouser2.jpg"> 
-<img src="FafhrdAndTheGrayMouser3.jpg"> 
-<img src="FafhrdAndTheGrayMouser4.jpg"> 
-<br>
-Creator: Fritz Leiber<br>
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="FafhrdAndTheGrayMouser1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="FafhrdAndTheGrayMouser2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="FafhrdAndTheGrayMouser3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="FafhrdAndTheGrayMouser4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Creator: Fritz Leiber, illustrated by Mike Mignola<br>
 Series: Novels 1947-1968, Comic 4 issue mini-series 1990<br>
-Publisher: Marvel<br>
+Publisher: Marvel imprint Epic<br>
 <p>
 Fafhrd and the Gray Mouser are two sword-and-sorcery heroes appearing in stories written by American author Fritz Leiber. They are the protagonists of what are probably Leiber's best-known stories. One of his motives in writing them was to have a couple of fantasy heroes closer to true human nature than the likes of Howard's Conan the Barbarian or Burroughs's Tarzan.
 </p><p>
