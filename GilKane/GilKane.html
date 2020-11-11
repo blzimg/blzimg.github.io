@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
-<title>Gil Kane</title>
 <link rel="stylesheet" href="../slideshow.css">
 <script src="../slideshow.js"></script>
+<script src="../w3sort.js"></script>
+<title>Gil Kane</title>
+
 </head>
 <body>
 
@@ -24,6 +25,9 @@
 <div class="mySlides" style="text-align: center;"><img src="GilKane03.jpg"></div>
 <div class="mySlides" style="text-align: center;"><img src="GilKane04.jpg"></div>
 <div class="mySlides" style="text-align: center;"><img src="GilKane05.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="GilKane06.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="../Fantagraphics/Fantagraphics147.jpg"></div>
+
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -38,12 +42,15 @@ Kane additionally pioneered an early graphic novel prototype, His Name is...Sava
 In 1997, he was inducted into both the Will Eisner Comic Book Hall of Fame and the Harvey Award Jack Kirby Hall of Fame.
 </p><p>
 
-<table class="sortable">
+<table id="myTable" class="tablesorter">
+<thead style="text-align:left">
 <tr>
-
-<th>Creation</th><th>Year</th><th>Publisher</th>
-</tr>
-<tr><td><a href="../../Creation/Action/ActionComics.html">Action Comics</a></td><td>1983</td><td>DC</td></tr>
+<th>Creation</th>
+<th>Year &nbsp; </th>
+<th>Publisher</th>
+</thead>
+<tbody>
+<tr><td><a href="../Action/ActionComics.html">Action Comics</a></td><td>1983</td><td>DC</td></tr>
 <tr><td>Adventure Comics</td><td>1944</td><td>DC</td></tr>
 <tr><td>Adventures of Rex the Wonder Dog</td><td>1952</td><td>DC</td></tr>
 <tr><td>All-American Men of War</td><td>1954</td><td>DC</td></tr>
@@ -65,7 +72,7 @@ In 1997, he was inducted into both the Will Eisner Comic Book Hall of Fame and t
 <tr><td>Doomsday Annual</td><td>1995</td><td>DC</td></tr>
 <tr><td>Falling in Love</td><td>1956</td><td>DC</td></tr>
 <tr><td>Fanboy</td><td>1999</td><td>DC</td></tr>
-<tr><td>The Flash</td><td>1970</td><td>DC</td></tr>
+<tr><td>Flash</td><td>1970</td><td>DC</td></tr>
 <tr><td>Forbidden Tales of Dark Mansion</td><td>1973</td><td>DC</td></tr>
 <tr><td>Girls' Love Stories</td><td>1954</td><td>DC</td></tr>
 <tr><td>Girls' Romances</td><td>1954</td><td>DC</td></tr>
@@ -122,7 +129,7 @@ In 1997, he was inducted into both the Will Eisner Comic Book Hall of Fame and t
 <tr><td>Adventure into Fear</td><td>1974</td><td>Marvel</td></tr>
 <tr><td>Adventures into Terror</td><td>1952</td><td>Marvel</td></tr>
 <tr><td>Adventures into Weird Worlds</td><td>1952</td><td>Marvel</td></tr>
-<tr><td>The Amazing Spider-Man</td><td>1970</td><td>Marvel</td></tr>
+<tr><td>Amazing Spider-Man</td><td>1970</td><td>Marvel</td></tr>
 <tr><td>Astonishing Tales</td><td>1972</td><td>Marvel</td></tr>
 <tr><td>Captain America</td><td>1972</td><td>Marvel</td></tr>
 <tr><td>Captain Marvel</td><td>1969</td><td>Marvel</td></tr>
@@ -133,9 +140,10 @@ In 1997, he was inducted into both the Will Eisner Comic Book Hall of Fame and t
 <tr><td>Ghost Rider</td><td>1976</td><td>Marvel</td></tr>
 <tr><td>Giant-Size Defenders</td><td>1974</td><td>Marvel</td></tr>
 <tr><td>Giant-Size Super-Heroes</td><td>1974</td><td>Marvel</td></tr>
+<tr><td>Gil Kane's Savage</td><td>1982</td><td>Fantagraphics</td></tr>
 <tr><td>Girl Confessions</td><td>1952</td><td>Marvel</td></tr>
 <tr><td>Inhumans</td><td>1976</td><td>Marvel</td></tr>
-<tr><td>The Invincible Iron Man</td><td>1972</td><td>Marvel</td></tr>
+<tr><td>Invincible Iron Man</td><td>1972</td><td>Marvel</td></tr>
 <tr><td>John Carter, Warlord of Mars</td><td>1977</td><td>Marvel</td></tr>
 <tr><td>Journey into Mystery</td><td>1972</td><td>Marvel</td></tr>
 <tr><td>Jungle Action</td><td>1974</td><td>Marvel</td></tr>
@@ -173,11 +181,16 @@ In 1997, he was inducted into both the Will Eisner Comic Book Hall of Fame and t
 <tr><td>Werewolf by Night</td><td>1973</td><td>Marvel</td></tr>
 <tr><td>What If?</td><td>1977</td><td>Marvel</td></tr>
 <tr><td>Worlds Unknown </td><td>1973</td><td>Marvel</td></tr>
-<tr><td>Young Allies</td><td>1944</td><td>Marvel</td></tr>
+<tr><td>    Young Allies</td><td>1944</td><td>Marvel</td></tr>
 <tr><td>Doll Man</td><td>1948</td><td>Quality Comics</td></tr>
 <tr><td>Noman</td><td>1966</td><td>Tower Comics</td></tr>
 <tr><td>T.H.U.N.D.E.R. Agents</td><td>1965</td><td>Tower Comics</td></tr>
+
+</tbody>
 </table>
 
 </body>
+<script src="../jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="../jquery.tablesorter.min.js" type="text/javascript"></script>
+<script src="../jqsort.js" type="text/javascript"></script>
 </html>
