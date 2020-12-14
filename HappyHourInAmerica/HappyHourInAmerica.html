@@ -2,20 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../ZimStyles.css">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
 <title>Happy Hour In America</title>
 </head>
-
 <body>
 <img src="HappyHourInAmerica01A.jpg">
-<img src="HappyHourInAmerica01B.jpg">
-<img src="HappyHourInAmerica02.jpg">
-<img src="HappyHourInAmerica03.jpg">
-<img src="HappyHourInAmerica04.jpg">
-<img src="HappyHourInAmerica05.jpg">
-<img src="HappyHourInAmerica06.jpg">
 <p>
-Written and Illustrated by <a href="https://blzim.github.io/kb/Creation/TimLane/TimLane.html">Tim Lane</a><br>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica01A.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica01B.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica02.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica03.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica04.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica05.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="HappyHourInAmerica06.jpg"></div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Written and Illustrated by <a href="../TimLane/TimLane.html">Tim Lane</a><br>
 Publisher: 2017 Fantagraphics<br>
 <p>
 Inspired by classic comic books of the Golden Age, Happy Hour in America is Tim Lane's debut indie comic, his epic exploration of "The Great American Mythological Drama." You'll find selections from his forthcoming graphic novels Just Like Steve McQueen and The Assasination of Billy Lyons by That Bad Man, Stagger Lee, along with many other strange, and fascinating tales from America.
