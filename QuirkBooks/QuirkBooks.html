@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../slideshow.css">
+<script src="../slideshow.js"></script>
+<title>Quirk Books</title>
+</head>
+
+<body>
+<img src="QuirkBooks1.jpg">
+<p>
+<div class="row"><div class="column">
+<img src="../SlideshowButton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+</div> </div>
+
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content">
+
+<div class="mySlides" style="text-align: center;"><img src="QuirkBooks1.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="QuirkBooks2.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="QuirkBooks3.jpg"></div>
+<div class="mySlides" style="text-align: center;"><img src="QuirkBooks4.jpg"></div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div></div>
+</p><p>
+Titles
+</p><p>
+<li><a href="QuirkBooks1.jpg">Giraffes on Horseback Salad</a> 2019
+<li><a href="QuirkBooks2.jpg">League of Regrettable Superheroes</a> 2015
+<li><a href="QuirkBooks3.jpg">Manfried Saves the Day</a> 2019
+<li><a href="QuirkBooks4.jpg">Manfried the Man</a> 2018
+</p>
+
+</body>
+</html>
